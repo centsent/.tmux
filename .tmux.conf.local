@@ -1,8 +1,8 @@
 # use the powerline patched font variant of the theme, possible values are:
 #   - default
 #   - powerline
-tmux_conf_theme=default
-#tmux_conf_theme=powerline
+# tmux_conf_theme=default
+tmux_conf_theme=powerline
 
 # display an indicator in the status line when the prefix key has been pressed,
 # possible values are:
@@ -34,7 +34,7 @@ tmux_conf_battery_symbol_count=auto
 tmux_conf_battery_palette='#d70000,#e4e4e4,#000000'
 #tmux_conf_battery_palette=colour160,colour254,colour16
 #tmux_conf_battery_palette=heat
-#tmux_conf_battery_palette=gradient
+tmux_conf_battery_palette=gradient
 
 # display the battery status: charging (U+26A1) / discharging (U+1F50B)
 tmux_conf_battery_status=enabled
